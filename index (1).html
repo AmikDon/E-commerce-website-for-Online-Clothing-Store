@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+        integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+
+    <!-- Style Css    -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Modish Collection</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <section class="header">
+        <div class="container">
+            <!-- Search and Cart -->
+            <div class="nav-area">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.jpg" alt=""></a>
+                </div>
+
+                <div class="nav-search">
+                    <div class="search-container">
+                        <!-- <form class="nav-search">
+                            <div>
+                                <label class="screen-reader-text" for="s"></label>
+                                <input type="text" placeholder="Search" />
+                                <input type="submit" id="searchsubmit" value="Search" />
+                            </div>
+                        </form> -->
+                        <form class="form-inline ">
+                            <input class="form-control nav-search-form" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <button class="btn nav-search-btn" type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+
+                </div>
+
+                <div class="cart-account">
+                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                    <a href="login.html"><i class="fas fa-user"></i></a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Nav Menu -->
+        <div class="main-nav">
+            <div class="container">
+                <nav class="main-menu">
+                    <ul>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Kids</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Shoes</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Slider -->
+    <div class="main-slider">
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide slider-content" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/loginimage.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Hello this is first slider.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/logo.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Hello this is second slider</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/loginimage.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Hello this is third slider.</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Featured Items -->
+    <div id="featured-items">
+        <div class="container">
+            <h2 class="head-title">New Items</h2>
+
+            <!-- Featured Items Content -->
+            <div class="post-blog-items">
+                <div class="post-block-style">
+                    <div class="post-thumb">
+                        <a href="#"><img src="images/featured/image1.jpg" alt=""></a>
+                    </div>
+
+                    <div class="post-item-details">
+                        <h4>Men's Down Jacket</h4>
+                        <h2>Rs : 400</h2>
+                    </div>
+                </div>
+
+                <div class="post-block-style">
+                    <div class="post-thumb">
+                        <a href="#"><img src="images/featured/image2.jpg" alt=""></a>
+                    </div>
+
+                    <div class="post-item-details">
+                        <h4>Winter Clothes</h4>
+                        <h2>Rs : 400</h2>
+                    </div>
+                </div>
+
+                <div class="post-block-style">
+                    <div class="post-thumb">
+                        <a href="#"><img src="images/featured/image3.jpg" alt=""></a>
+                    </div>
+
+                    <div class="post-item-details">
+                        <h4>Levis Jeans</h4>
+                        <h2>Rs : 400</h2>
+
+                    </div>
+                </div>
+
+                <div class="post-block-style">
+                    <div class="post-thumb">
+                        <a href="#"><img src="images/featured/image4.jpg" alt=""></a>
+                    </div>
+
+                    <div class="post-item-details">
+                        <h4>Gloves</h4>
+                        <h2>Rs : 400</h2>
+                    </div>
+                </div>
+
+                <!-- <div class="post-block-style">
+                    <div class="post-thumb">
+                        <a href="#"><img src="images/featured/image3.jpg" alt=""></a>
+                    </div>
+
+                    <div class="post-item-details">
+                        <h4>Pants</h4>
+                        <h2>Rs : 400</h2>
+                    </div>
+                </div>
+
+                <div class="post-block-style">
+                    <div class="post-thumb">
+                        <a href="#"><img src="images/featured/image4.jpg" alt=""></a>
+                    </div>
+
+                    <div class="post-item-details">
+                        <h4>Men's Down Jacket</h4>
+                        <h2>Rs : 400</h2>
+                    </div>
+                </div>
+
+                <div class="post-block-style">
+                    <div class="post-thumb">
+                        <a href="#"><img src="images/featured/image3.jpg" alt=""></a>
+                    </div>
+
+                    <div class="post-item-details">
+                        <h4>Winter Clothes</h4>
+                        <h2>Rs : 400</h2>
+                    </div>
+                </div>
+
+                <div class="post-block-style">
+                    <div class="post-thumb">
+                        <a href="#"><img src="images/featured/image4.jpg" alt=""></a>
+                    </div>
+
+                    <div class="post-item-details">
+                        <h4>Levis Jeans</h4>
+                        <h2>Rs : 400</h2>
+
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Shop Banner -->
+    <div class="shop-banner">
+        <div class="container">
+            <div class="shop-banner-items">
+                <div class="banner-content">
+                    <img src="images/shop-banner/shop_banner_img1.jpg" alt="">
+
+                    <div class="banner-details">
+                        <h5>Super Sale</h5>
+                        <h3>New Collection</h3>
+                        <a href="">Shop Now</a>
+                    </div>
+                </div>
+
+                <div class="banner-content">
+                    <img src="images/shop-banner/shop_banner_img2.jpg" alt="">
+
+                    <div class="banner-details">
+                        <h5>Super Sale</h5>
+                        <h3>New Collection</h3>
+                        <a href="">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Items -->
+    <div id="featured-items">
+        <div class="container">
+            <h2 class="head-title">Featured Products</h2>
+
+            <!-- Featured Items Content -->
+            <div class="post-blog-items">
+                <div class="post-block-style">
+                    <div class="post-thumb">
+                        <a href="#"><img src="images/featured/image1.jpg" alt=""></a>
+                    </div>
+
+                    <div class="post-item-details">
+                        <h4>Men's Down Jacket</h4>
+                        <h2>Rs : 400</h2>
+                    </div>
+                </div>
+
+                <div class="post-block-style">
+                    <div class="post-thumb">
+                        <a href="#"><img src="images/featured/image2.jpg" alt=""></a>
+                    </div>
+
+                    <div class="post-item-details">
+                        <h4>Winter Clothes</h4>
+                        <h2>Rs : 400</h2>
+                    </div>
+                </div>
+
+                <div class="post-block-style">
+                    <div class="post-thumb">
+                        <a href="#"><img src="images/featured/image3.jpg" alt=""></a>
+                    </div>
+
+                    <div class="post-item-details">
+                        <h4>Levis Jeans</h4>
+                        <h2>Rs : 400</h2>
+
+                    </div>
+                </div>
+
+                <div class="post-block-style">
+                    <div class="post-thumb">
+                        <a href="#"><img src="images/featured/image4.jpg" alt=""></a>
+                    </div>
+
+                    <div class="post-item-details">
+                        <h4>Gloves</h4>
+                        <h2>Rs : 400</h2>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- New Collection -->
+
+    <div class="trending-banner">
+        <div class="container">
+            <div class="trending-items">
+                <div class="trending-content">
+                    <img src="images/shop-banner/trending_img.png" alt="">
+                </div>
+
+                <div class="trending-details">
+                    <h5>New Trends</h5>
+                    <h3>Best Collection</h3>
+                    <a href="">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <section class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-items">
+                    <img src="images/logo.jpg" alt="">
+                    <h5>Find Everything You Want At Best Price. Best Place To Find Best Clothes</h5>
+                    <h4>Follow Us</h4>
+                    <ul class="footer-social">
+                        <li class="facebook"><a href=""><i class=" fab fa-facebook-square"></i></a></li>
+                        <li class="instagram"><a href=""><i class=" fab fa-instagram"></i></a></li>
+                        <li class="whatsapp"><a href=""><i class=" fab fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-items">
+                    <h4>Contact Details</h4>
+                    <ul class="footer-contact-details">
+                        <li><i class=" fas fa-map-marker"></i>Putalisadak, Kathmandu 44600 Nepal</li>
+                        <li><i class=" fas fa-phone"></i>Phone : +977 - 1 - 9788892 / 98789087</li>
+                        <li><i class=" fas fa-phone"></i>Whatsapp / Viber : +977 - 93737372</li>
+                        <li><i class=" fas fa-envelope"></i>Email : modishcollection@gmail.com</li>
+                    </ul>
+                </div>
+
+                <!-- <div class="footer-items">
+                   
+                </div> -->
+
+                <div class="footer-items">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.2778128004784!2d85.32379891542838!3d27.708707432038224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1908434cb3c5%3A0x1fdf1a6d41d2512d!2sIslington%20College!5e0!3m2!1sen!2shk!4v1608740993432!5m2!1sen!2shk"
+                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+
+        </div>
+        <h2 class="footer-h2">© Modish Collection</h2>
+
+    </section>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
